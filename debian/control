@@ -8,6 +8,6 @@ Standards-Version: 3.9.5
 Package: gtk3demo
 Architecture: any
 Pre-Depends: dpkg (>= 1.16.1), python3.7, ${misc:Pre-Depends}
-Depends: ${python:Depends}, ${misc:Depends}
+Depends: ${python:Depends}, ${misc:Depends}, libgirepository1.0-dev, gcc, libcairo2-dev, pkg-config, python3-dev, gir1.2-gtk-3.0
 Description: Python GTK3 demo application.
  Python GTK3 demo application.
