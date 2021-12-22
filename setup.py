@@ -6,6 +6,12 @@ setup(
     packages=['gtk3demo'],
     install_requires=[
         'requests',
-        'importlib; python_version >= "3.7"',
+        'python_version >= "3.7"',
     ],
+
+    entry_points={
+        'console_scripts': [
+            'gtk3-demo-app = gtk3demo.__main__:main'
+         ],
+    }
 )
